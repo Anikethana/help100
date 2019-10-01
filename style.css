@@ -121,6 +121,11 @@ body {
 
 small {
     font-size: 30px;
+    font-size: 26px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    left: 0;
 }
 
 .social div {
@@ -236,6 +241,9 @@ div {
     margin-top: 80px !important;
 }
 
+.quote-2 {
+    position: relative;
+}
 
 @media (max-width: 930px) {
     .quote > div {
