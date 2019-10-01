@@ -16,19 +16,21 @@ body {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    padding: 20px;
+    padding: 50px 20px;
     text-align: center;
     line-height: 40px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 50px auto;
 }
 
 .logo {
-    max-width: 300px;
-    margin: auto
+    max-width: 350px;
+    margin: 20px auto 50px;
 }
 
 .social {
@@ -39,7 +41,7 @@ body {
 .social .icon {
     width: 50px;
     height: 50px;
-    margin: 22px;
+    margin: 23px;
     display: inline-block;
     cursor: pointer;
     text-align: center;
@@ -67,4 +69,197 @@ body {
 
 .icon.twitter:hover {
     background: url('assets/twitter-full.svg');
+}
+
+.quote {
+    width: 100%;
+    max-width: 915px;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    padding: 0 !important;
+}
+
+.quote > div {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: middle;
+    margin: 50px 10px;
+}
+
+.quote-plus {
+    font-size: 50px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.donate-now {
+    width: 200px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-size: 25px;
+    margin: 30px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.small-para {
+    font-size: 22px;
+    text-align: center;
+    max-width: 570px;
+    margin: 70px auto;
+    padding: 0 10px;
+}
+
+.social div {
+    font-size: 14px;
+}
+
+small {
+    font-size: 26px;
+    position: absolute;
+    bottom: -25px;
+    width: 140px;
+    left: -70px;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.social div {
+    text-align: center;
+}
+
+a {
+    color: #000;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@media (max-width: 700px) {
+    .modal-content {
+        width: 90%;
+    }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #000;
+    color: white;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.quote-2,
+.quote-1 {
+    vertical-align: top !important;
+}
+
+.quote-3 {
+    margin-top: 80px !important;
+}
+
+.quote-2 {
+    position: relative;
+}
+
+@media (max-width: 930px) {
+    .quote > div {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .quote-plus {
+        padding-top: 0 !important;
+        max-width: 100% !important;
+        padding: 0;
+    }
+
+    .quote-3 {
+        margin-top: 20px !important;
+    }
+}
+
+.rupee {
+    font-size: 45px;
 }
