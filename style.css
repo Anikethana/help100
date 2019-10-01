@@ -246,6 +246,7 @@ div {
     .quote-plus {
         padding-top: 0 !important;
         max-width: 100% !important;
+        padding: 0;
     }
 
     .quote-3 {
