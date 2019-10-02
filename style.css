@@ -243,6 +243,10 @@ a {
     position: relative;
 }
 
+.rupee {
+    font-size: 45px;
+}
+
 @media (max-width: 930px) {
     .quote > div {
         margin: 10px 0px;
@@ -274,8 +278,8 @@ a {
     .quote-2 {
         margin-bottom: 20px !important;
     }
-}
 
-.rupee {
-    font-size: 45px;
+    .rupee {
+        font-size: 35px !important;
+    }
 }
