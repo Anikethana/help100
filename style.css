@@ -245,7 +245,7 @@ a {
 
 @media (max-width: 930px) {
     .quote > div {
-        margin: 20px 0px;
+        margin: 10px 0px;
         width: 100%;
     }
 
@@ -257,6 +257,22 @@ a {
 
     .quote-3 {
         margin-top: 20px !important;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .quote {
+        font-size: 40px;
+    }
+
+    .banner-text {
+        font-size: 25px;
+    }
+
+    .quote-2 {
+        margin-bottom: 20px !important;
     }
 }
 
